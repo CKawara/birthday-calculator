@@ -23,7 +23,7 @@ form.addEventListener('submit', function getDay(event){
         alert("Invalid!! Month is out of range")
     };
     var year = parseInt(document.getElementById('year').value);
-    console.log(year);
+    if (year>= 2000) {dd+=1} //solves the issues of the result being one day behind in years after 2000
     var cc = parseInt(document.getElementById('year').value.slice(0, 2));
     console.log(cc);
     var yy = parseInt(document.getElementById('year').value.slice(2, 4));
