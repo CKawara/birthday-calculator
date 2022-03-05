@@ -12,9 +12,13 @@ days[6] = "Friday"
 function getDay(){
     
     var dd = parseInt(document.getElementById('day').value);
-    console.log(dd);
+    if (dd < 0 || dd > 31){
+        alert("Invalid!! Day is out of range")
+    };
     var mm = parseInt(document.getElementById('month').value);
-    console.log(mm);
+    if (mm < 0 || mm > 12){
+        alert("Invalid!! Month is out of range")
+    };
     var year = parseInt(document.getElementById('year').value);
     console.log(year);
     var cc = parseInt(document.getElementById('year').value.slice(0, 2));
