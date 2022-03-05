@@ -27,7 +27,9 @@ function getDay(){
     console.log(yy);
     var gender = document.getElementById('gender').value;
     console.log(gender);
-
-
+    
+    //Day of the week calculation
+    var dayOfTheWeek = Math.trunc((((cc/4)-2*cc-1) + ((5*yy/4))+((26*(mm+1)/10))+dd) %7)
+    document.getElementById('result1').value = days[dayOfTheWeek];
 
 }
