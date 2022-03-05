@@ -9,7 +9,7 @@
     <title>Birthday-calculator</title>
 </head>
 <body>
-    <form class="row g-3">
+    <form class="row g-3" id="form">
         <div class="col-12">
           <label for="month" class="form-label">Month (1-12):</label>
           <input type="number" class="form-control" id="month" placeholder="Enter month" required>
@@ -31,8 +31,8 @@
           </select>
         </div>
         <div class="col-12">
-            <button class="btn " type="button" onclick="getDay()">get day i was born</input>
-            <button class="btn " type="clear" value="clear">clear</button>
+            <input class="btn " type="submit" value="Calculate day of the week">
+            <input class="btn " type="reset" value="clear">
          </div>
         <div class="col-12">
             <label for="result1" class="form-label">You were born on a:</label>

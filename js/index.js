@@ -8,9 +8,12 @@ days[4] = "Wedsday"
 days[5] = "Thursday"
 days[6] = "Friday"
 
+var form = document.getElementById('form')
 
-function getDay(){
-    
+//function to calculate day of the week
+form.addEventListener('submit', function getDay(event){
+    event.preventDefault(); // Prevents the form from autosubmitting
+
     var dd = parseInt(document.getElementById('day').value);
     if (dd < 0 || dd > 31){
         alert("Invalid!! Day is out of range")
@@ -32,4 +35,5 @@ function getDay(){
     var dayOfTheWeek = Math.trunc((((cc/4)-2*cc-1) + ((5*yy/4))+((26*(mm+1)/10))+dd) %7)
     document.getElementById('result1').value = days[dayOfTheWeek];
 
-}
+})
+
