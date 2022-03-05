@@ -4,7 +4,7 @@ days[0] = "Saturday"
 days[1] = "Sunday"
 days[2] = "Monday"
 days[3] = "Tuesday"
-days[4] = "Wedsday"
+days[4] = "Wednesday"
 days[5] = "Thursday"
 days[6] = "Friday"
 
@@ -35,10 +35,51 @@ form.addEventListener('submit', function getDay(event){
     var dayOfTheWeek = Math.trunc((((cc/4)-2*cc-1) + ((5*yy/4))+((26*(mm+1)/10))+dd) %7)
     document.getElementById('result1').value = days[dayOfTheWeek];
     
-    // if (gender == "Male"){
-    //     document.getElementById('akan').value = "mannn";
-    // }else if (gender == "Female"){
-    //     document.getElementById('akan').value = "mamaaa";
-    // }
+    if (gender == "Male"){
+        if (dayOfTheWeek === 0){
+            document.getElementById('akan').value = "Kwame";
+        }
+        else if (dayOfTheWeek === 1){
+            document.getElementById('akan').value = "Kwasi";
+        }
+        else if (dayOfTheWeek === 2){
+            document.getElementById('akan').value = "Kwadwo";
+        }
+        else if (dayOfTheWeek === 3){
+            document.getElementById('akan').value = "Kwabena";
+        }
+        else if (dayOfTheWeek === 4){
+            document.getElementById('akan').value = "Kwaku";
+        }
+        else if (dayOfTheWeek === 5){
+            document.getElementById('akan').value = "Yaw";
+        }
+        else if (dayOfTheWeek === 6){
+            document.getElementById('akan').value = "Kofi";
+        }
+        
+    }else if (gender == "Female"){
+        if (dayOfTheWeek === 0){
+            document.getElementById('akan').value = "Ama";
+        }
+        else if (dayOfTheWeek === 1){
+            document.getElementById('akan').value = "Akosua";
+        }
+        else if (dayOfTheWeek === 2){
+            document.getElementById('akan').value = "Adwoa";
+        }
+        else if (dayOfTheWeek === 3){
+            document.getElementById('akan').value = "Abenaa";
+        }
+        else if (dayOfTheWeek === 4){
+            document.getElementById('akan').value = "Akua";
+        }
+        else if (dayOfTheWeek === 5){
+            document.getElementById('akan').value = "Yaa";
+        }
+        else if (dayOfTheWeek === 6){
+            document.getElementById('akan').value = "Afua";
+        }
+    }
 })
 
