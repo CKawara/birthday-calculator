@@ -34,6 +34,11 @@ form.addEventListener('submit', function getDay(event){
     //Day of the week calculation
     var dayOfTheWeek = Math.trunc((((cc/4)-2*cc-1) + ((5*yy/4))+((26*(mm+1)/10))+dd) %7)
     document.getElementById('result1').value = days[dayOfTheWeek];
-
+    
+    // if (gender == "Male"){
+    //     document.getElementById('akan').value = "mannn";
+    // }else if (gender == "Female"){
+    //     document.getElementById('akan').value = "mamaaa";
+    // }
 })
 
