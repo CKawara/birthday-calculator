@@ -26,6 +26,7 @@ To access the site you'll need;
 ## Technologies
 - [HTML](https://www.w3schools.com/html/) 
 - [CSS](https://www.w3schools.com/css/) 
+- [JavaScript](https://www.w3schools.com/js/)
 - [Bootstrap](https://getbootstrap.com/) 
 
 ## Contributers
