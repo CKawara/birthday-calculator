@@ -17,7 +17,6 @@ To access the site you'll need;
 
 ## Behaviour Driven Development (BDD)
 | Behaviour                  | Input Example     | Output Example    |
-| Our program should handle: | When it receives: | It should return: |
 | ---                        | ---               | ---               |
 | Calculating the day of the week a user was born | 3/6/2022 | Sunday |
 | Assign Akan Name based on gender | Female | Akousa |
