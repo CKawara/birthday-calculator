@@ -3,7 +3,7 @@ This is a  web application that takes a user's birthday and calculates the day o
 Akan names are derived from Ghanian culture. Frequently in Ghana, children are given their first name as a 'day name' which corresponds to the day in the week they were born.
 
 ## Demo
-Here's the live demo 
+Here's the live demo https://ckawara.github.io/birthday-calculator/
 
 ## Setup and Installation
 1. Fork the repository
