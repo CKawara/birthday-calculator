@@ -15,6 +15,15 @@ To access the site you'll need;
 - A device (smartphone, PC or tablet).
 - An internet conection.
 
+## Behaviour Driven Development (BDD)
+| Behaviour | Input Example | Output Example|
+| Our program should handle: | When it receives: | It should return: |
+| --- | --- | --- |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+|  |  |  |
+
 ## Technologies
 - [HTML](https://www.w3schools.com/html/) 
 - [CSS](https://www.w3schools.com/css/) 
