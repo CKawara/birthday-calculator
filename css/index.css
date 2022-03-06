@@ -12,7 +12,7 @@ body{
     
 }
 .card{
-    margin-top: 5%;
+    margin-top: 4%;
     padding: 10px;
     background-color: #f0edf3; 
     border-radius: 0;
@@ -76,4 +76,13 @@ body{
     font-size: large;
     font-weight: 700;
 }
-
+footer{
+    background-color: #565380;
+    text-align: center;
+    color: #e7e9f0;
+}
+footer p{
+    padding: 7px;
+    margin-bottom: -30px;
+    margin-top: 35px;
+}
