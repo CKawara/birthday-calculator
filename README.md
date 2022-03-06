@@ -12,17 +12,17 @@ Here's the live demo https://ckawara.github.io/birthday-calculator/
 
 ## Requirements
 To access the site you'll need;
-- A device (smartphone, PC or tablet).
+- A device (smartphone, PC, or tablet).
 - An internet conection.
 
 ## Behaviour Driven Development (BDD)
-| Behaviour | Input Example | Output Example|
+| Behaviour                  | Input Example     | Output Example    |
 | Our program should handle: | When it receives: | It should return: |
-| --- | --- | --- |
-|  |  |  |
-|  |  |  |
-|  |  |  |
-|  |  |  |
+| ---                        | ---               | ---               |
+| Calculating the day of the week a user was born | 3/6/2022 | Sunday |
+| Assign Akan Name based on gender | Female | Akousa |
+| Alert the user if they leave a blank field | Empty field | Please fill out this field |
+| Alert the user if they input an invalid date or month | 32/6/2022 | Invalid!! Day is out of range |
 
 ## Technologies
 - [HTML](https://www.w3schools.com/html/) 
