@@ -4,15 +4,28 @@
     box-sizing: border-box;
 }
 body{
+    font-size: large;
     font-family: 'PT Sans', sans-serif;
-    background-color: #e7e9f0; 
-    /* background-image: linear-gradient(to bottom right, #e7e9f0, #535f80); */
+    /* background-color: #e7e9f0;  */
+    background-image: linear-gradient(to bottom right,#f3ebfd, #565380);
+    background-attachment: fixed;
     
 }
 .card{
     margin-top: 5%;
     padding: 10px;
-    background-color: #e7e9f0;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    background-color: #f0edf3; 
+    border-radius: 0;
+    border: #565380, 2px, solid;
+    box-shadow: 5px 10px 10px 5px #565380;
 
+}
+.card-body{
+    border: solid black 2px;
+    background-color: #290447;
+    color: #e7e9f0;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: -30px;
+    box-shadow:  5px 10px 10px  #565380 ;
 }
