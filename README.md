@@ -23,5 +23,5 @@ To access the site you'll need;
 ## Contributers
 [Catherine Kawara](https://github.com/CKawara/)
 
-## [license]()
-MIT © [Catherine Kawara]()
+## [license](https://github.com/CKawara/birthday-calculator/blob/master/LICENSE)
+MIT © [Catherine Kawara](https://github.com/CKawara/birthday-calculator/blob/master/LICENSE)
